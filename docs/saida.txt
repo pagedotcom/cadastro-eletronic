@@ -1,0 +1,18 @@
+
+[1. Pessoa física válida]
+OK   -> Carlos Lima | Av. Paulista, 1000 - São Paulo/SP | CPF: 52998224725 | Nasc.: 1995-08-20
+
+[2. Pessoa jurídica válida]
+OK   -> Mega Eletro | Av. Paulista, 1000 - São Paulo/SP | CNPJ: 11222333000181 | Razão social: Mega Eletro Comércio Ltda
+
+[3. Pessoa física inválida (nome curto)]
+ERRO -> Nome deve ter ao menos 3 caractere(s)
+
+[4. Pessoa jurídica inválida (CNPJ curto)]
+ERRO -> CNPJ deve ter 14 dígitos
+
+[5. Pessoa física inválida (data futura)]
+ERRO -> Data de nascimento inválida
+
+[6. Pessoa jurídica inválida (razão social vazia)]
+ERRO -> Razão social deve ter ao menos 1 caractere(s)

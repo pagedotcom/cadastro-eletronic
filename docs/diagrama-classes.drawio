@@ -1,0 +1,72 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="vX4DqSEfMmhW8bGDklQO">
+    <mxGraphModel dx="860" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-10" edge="1" parent="1" source="Mo7Gf-IB7ub8VicF2wFz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;" target="Mo7Gf-IB7ub8VicF2wFz-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=light-dark(#000000,#FFFFFF);" value="Pessoa" vertex="1">
+          <mxGeometry height="110" width="160" x="260" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-2" parent="Mo7Gf-IB7ub8VicF2wFz-1" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="- nome: String&lt;div&gt;- endereco: Endereco&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-3" parent="Mo7Gf-IB7ub8VicF2wFz-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-4" parent="Mo7Gf-IB7ub8VicF2wFz-1" style="text;strokeColor=#3A5431;fillColor=#6d8764;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="+ getters e setters&lt;div&gt;+ toString(): String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="160" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Endereco" vertex="1">
+          <mxGeometry height="150" width="160" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-7" parent="Mo7Gf-IB7ub8VicF2wFz-6" style="text;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="- logradouro: String&lt;div&gt;- numero: Number&lt;/div&gt;&lt;div&gt;- cidade: String&lt;/div&gt;&lt;div&gt;- uf: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-8" parent="Mo7Gf-IB7ub8VicF2wFz-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-9" parent="Mo7Gf-IB7ub8VicF2wFz-6" style="text;strokeColor=#3A5431;fillColor=#6d8764;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="+ getters e setters&lt;div&gt;+ toString(): String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="160" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 endereco" vertex="1">
+          <mxGeometry height="30" width="70" x="440" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-57" edge="1" parent="1" source="Mo7Gf-IB7ub8VicF2wFz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;endSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Mo7Gf-IB7ub8VicF2wFz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-12" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="PessoaFisica" vertex="1">
+          <mxGeometry height="110" width="160" x="170" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-13" parent="Mo7Gf-IB7ub8VicF2wFz-12" style="text;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="- cpf: String&lt;div&gt;- dataNascimento: Date&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-14" parent="Mo7Gf-IB7ub8VicF2wFz-12" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-15" parent="Mo7Gf-IB7ub8VicF2wFz-12" style="text;strokeColor=#3A5431;fillColor=#6d8764;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="+ getters e setters&lt;div&gt;+ toString(): String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="160" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-58" edge="1" parent="1" source="Mo7Gf-IB7ub8VicF2wFz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;endSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Mo7Gf-IB7ub8VicF2wFz-1">
+          <mxGeometry relative="1" x="-0.0936" as="geometry">
+            <mxPoint x="350" y="173.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-19" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;newEdgeStyle=%7B%22edgeStyle%22%3A%22orthogonalEdgeStyle%22%2C%22rounded%22%3A%220%22%2C%22orthogonalLoop%22%3A%221%22%2C%22jettySize%22%3A%22auto%22%2C%22html%22%3A%221%22%2C%22defaultLabelBackgroundColor%22%3A%22page%22%7D;" value="PessoaJuridica" vertex="1">
+          <mxGeometry height="110" width="160" x="420" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-20" parent="Mo7Gf-IB7ub8VicF2wFz-19" style="text;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="- cnpj: String&lt;div&gt;- razaoSocial: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-21" parent="Mo7Gf-IB7ub8VicF2wFz-19" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo7Gf-IB7ub8VicF2wFz-22" parent="Mo7Gf-IB7ub8VicF2wFz-19" style="text;strokeColor=#3A5431;fillColor=#6d8764;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="+ getters e setters&lt;div&gt;+ toString(): String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="160" y="68" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
